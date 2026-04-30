@@ -1,5 +1,5 @@
-# Use OpenJDK to both compile and run for simplicity in this lab
-FROM openjdk:17-jdk-slim
+# Use OpenJDK to both compile and run for simplicity in thi
+FROM eclipse-temurin:17-jdk-jammy
 
 # Set working directory
 WORKDIR /app
