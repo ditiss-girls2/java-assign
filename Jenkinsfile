@@ -2,13 +2,13 @@ pipeline {
     agent any
 
     stages {
-        stage('Build Image') {
+        stage('Compile java code') {
             steps {
                  sh 'javac Hello.java'
             }
         }
 
-	stage('Build Image') {
+	stage('Run Java Code') {
             steps {
                  sh 'java Hello'                
             }
